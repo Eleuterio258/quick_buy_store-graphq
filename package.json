@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@paymentsds/mpesa": "^0.1.0-alpha-9",
+    "apollo-server": "^2.19.2",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.6.0",
+    "esm": "^3.2.25",
+    "graphql": "^15.5.0",
+    "graphql-constraint-directive": "^2.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mpesa-mz-nodejs-lib": "^0.7.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0",
+    "sqlite3": "^5.0.2",
+    "validator": "^13.5.2"
+  },
+  "name": "login-jwt",
+  "version": "5.6.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  },
+  "scripts": {
+    "dev": " nodemon index.js",
+    "build": "babel --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
+}
